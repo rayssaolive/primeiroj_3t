@@ -38,3 +38,18 @@ function total(){
     let resultado = (val *(1+ (ju/100))) + val;
     document.write("O resultado é " + resultado);
 }
+// divisao é/
+// multiplicaçao é *
+function soma(){
+    let v1 = document. getElementById("v1").value;
+    let v2 = document. getElementById("v2").value;
+    let r = (Number(v1) + Number (v2));
+    document. getElementById( "resultado").innerHTML= r;
+}
+function subritaçao(){
+    let s1 = document. getElementById("s1").value;
+    let s2 = document. getElementById("s2").value;
+    let r = (Number(s1) + Number (s2));
+document. getElementById( "resultado").innerHTML= r
+
+
