@@ -35,21 +35,19 @@ function quadrado(){
 function total(){
      val = document.getElementById("valor").value;
     let ju = document.getElementById("juros").value;
-    let resultado = (val *(1+ (ju/100))) + val;
+
+     if (Number(val)){
+        alert("o valor deve ser um numero")
+        document.getElementById("valor").value =m" " ;
+        document.getElementById("valor").focus();
+        return
+
+     if(Number(ju)){
+            alert"o valor dos juros deve ser um numero");
+        document.getElementById("juros").value =m" " ;
+        document.getElementById("juros").focus(); 
+        return
+    }
+    let resultado = (val *(1+ (ju/100)))
     document.write("O resultado é " + resultado);
 }
-// divisao é/
-// multiplicaçao é *
-function soma(){
-    let v1 = document. getElementById("v1").value;
-    let v2 = document. getElementById("v2").value;
-    let r = (Number(v1) + Number (v2));
-    document. getElementById( "resultado").innerHTML= r;
-}
-function subritaçao(){
-    let s1 = document. getElementById("s1").value;
-    let s2 = document. getElementById("s2").value;
-    let r = (Number(s1) + Number (s2));
-document. getElementById( "resultado").innerHTML= r
-
-
