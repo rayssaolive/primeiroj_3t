@@ -1,13 +1,22 @@
-.calculadora {
-      
-  }
-  #btncalc
-    background-color: rgb(0, 89, 255);
-    width: 200px;
-    padding: 20px;
-  }
-  #btnCalc {
-      background-color: brown;
-      color: cornsilk;
-      margin: 10px;
-      padding: 5px;
+calculadora {
+  background-color: violet;
+  width: 200px;
+  padding: 20px;
+  
+}
+.spTotal{
+  background: rgb(27, 2, 250);
+  color:white;
+  margin: 10px;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+.calculadora input:focus{
+  background:black
+  color:salmon
+}
+#btnCalc:hover{
+  background: rgb(201, 140, 230);
+  color:rgb(0, 0, 0);
+  cursor: pointer;
+}
